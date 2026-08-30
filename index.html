@@ -164,6 +164,7 @@ color: #fff; display: flex; align-items: center; justify-content: center;
 font-size: 15px; cursor: pointer; transition: background 0.2s ease, transform 0.2s ease;
 }
 .video-mute-btn:hover { background: rgba(0,0,0,0.7); transform: scale(1.08); }
+.card-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
 
 /* Body */
 .card-body { padding: 20px 22px 18px; display: flex; flex-direction: column; gap: 7px; flex: 1; align-items: center; text-align: center; }
@@ -244,94 +245,70 @@ border-radius: 6px; width: fit-content; margin-top: 2px;
 
 <div class="cards-grid">
 
-<div class="card">
+<a class="card" href="https://pacofilo.github.io/Quiz-Antropolog-a-/" target="_blank">
 <div class="card-img">
-<video class="card-video" autoplay muted loop playsinline preload="metadata" aria-label="Quiz 1">
-<source src="videos/quizzes-quiz-1.mp4" type="video/mp4">
-</video>
-<span class="card-img-placeholder">Vídeo pendiente</span>
-<button type="button" class="video-mute-btn" aria-label="Activar sonido" onclick="event.preventDefault(); event.stopPropagation(); toggleSound(this);">🔇</button>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Homo-Stammbaum%2C_Version_Stringer-en.svg/960px-Homo-Stammbaum%2C_Version_Stringer-en.svg.png" alt="Antropología" loading="lazy">
 </div>
 <div class="card-body">
-<span class="card-title">Quiz 1</span>
-<span class="card-tag">🚧 En construcción</span>
+<span class="card-title">Antropología</span>
+<span class="card-tag">🎮 ¡Disponible!</span>
 </div>
-</div>
+</a>
 
 
-<div class="card">
+<a class="card" href="https://pacofilo.github.io/Quiz-Derechos-humanos-ACI/" target="_blank">
 <div class="card-img">
-<video class="card-video" autoplay muted loop playsinline preload="metadata" aria-label="Quiz 2">
-<source src="videos/quizzes-quiz-2.mp4" type="video/mp4">
-</video>
-<span class="card-img-placeholder">Vídeo pendiente</span>
-<button type="button" class="video-mute-btn" aria-label="Activar sonido" onclick="event.preventDefault(); event.stopPropagation(); toggleSound(this);">🔇</button>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/3840px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg" alt="Derechos Humanos ACI" loading="lazy">
 </div>
 <div class="card-body">
-<span class="card-title">Quiz 2</span>
-<span class="card-tag">🚧 En construcción</span>
+<span class="card-title">Derechos Humanos ACI</span>
+<span class="card-tag">🎮 ¡Disponible!</span>
 </div>
-</div>
+</a>
 
 
-<div class="card">
+<a class="card" href="https://pacofilo.github.io/quiz-ddhh/" target="_blank">
 <div class="card-img">
-<video class="card-video" autoplay muted loop playsinline preload="metadata" aria-label="Quiz 3">
-<source src="videos/quizzes-quiz-3.mp4" type="video/mp4">
-</video>
-<span class="card-img-placeholder">Vídeo pendiente</span>
-<button type="button" class="video-mute-btn" aria-label="Activar sonido" onclick="event.preventDefault(); event.stopPropagation(); toggleSound(this);">🔇</button>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Eleanor_Roosevelt_UDHR.jpg/3840px-Eleanor_Roosevelt_UDHR.jpg" alt="DDHH" loading="lazy">
 </div>
 <div class="card-body">
-<span class="card-title">Quiz 3</span>
-<span class="card-tag">🚧 En construcción</span>
+<span class="card-title">DDHH</span>
+<span class="card-tag">🎮 ¡Disponible!</span>
 </div>
-</div>
+</a>
 
 
-<div class="card">
+<a class="card" href="https://pacofilo.github.io/Quiz-Metaf-sica-y-filosof-a-de-la-mente/" target="_blank">
 <div class="card-img">
-<video class="card-video" autoplay muted loop playsinline preload="metadata" aria-label="Quiz 4">
-<source src="videos/quizzes-quiz-4.mp4" type="video/mp4">
-</video>
-<span class="card-img-placeholder">Vídeo pendiente</span>
-<button type="button" class="video-mute-btn" aria-label="Activar sonido" onclick="event.preventDefault(); event.stopPropagation(); toggleSound(this);">🔇</button>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg" alt="Metafísica y Filosofía de la Mente" loading="lazy">
 </div>
 <div class="card-body">
-<span class="card-title">Quiz 4</span>
-<span class="card-tag">🚧 En construcción</span>
+<span class="card-title">Metafísica y Filosofía de la Mente</span>
+<span class="card-tag">🎮 ¡Disponible!</span>
 </div>
-</div>
+</a>
 
 
-<div class="card">
+<a class="card" href="https://pacofilo.github.io/Quiz-identidad-y-personalidad/" target="_blank">
 <div class="card-img">
-<video class="card-video" autoplay muted loop playsinline preload="metadata" aria-label="Quiz 5">
-<source src="videos/quizzes-quiz-5.mp4" type="video/mp4">
-</video>
-<span class="card-img-placeholder">Vídeo pendiente</span>
-<button type="button" class="video-mute-btn" aria-label="Activar sonido" onclick="event.preventDefault(); event.stopPropagation(); toggleSound(this);">🔇</button>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Ship_of_Theseus.svg/3840px-Ship_of_Theseus.svg.png" alt="Identidad y Personalidad" loading="lazy">
 </div>
 <div class="card-body">
-<span class="card-title">Quiz 5</span>
-<span class="card-tag">🚧 En construcción</span>
+<span class="card-title">Identidad y Personalidad</span>
+<span class="card-tag">🎮 ¡Disponible!</span>
 </div>
-</div>
+</a>
 
 
-<div class="card">
+<a class="card" href="https://pacofilo.github.io/Quiz-Derechos-humanos-ACI/" target="_blank">
 <div class="card-img">
-<video class="card-video" autoplay muted loop playsinline preload="metadata" aria-label="Quiz 6">
-<source src="videos/quizzes-quiz-6.mp4" type="video/mp4">
-</video>
-<span class="card-img-placeholder">Vídeo pendiente</span>
-<button type="button" class="video-mute-btn" aria-label="Activar sonido" onclick="event.preventDefault(); event.stopPropagation(); toggleSound(this);">🔇</button>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg/3840px-Magna_Carta_%28British_Library_Cotton_MS_Augustus_II.106%29.jpg" alt="Derechos Humanos ACI" loading="lazy">
 </div>
 <div class="card-body">
-<span class="card-title">Quiz 6</span>
-<span class="card-tag">🚧 En construcción</span>
+<span class="card-title">Derechos Humanos ACI</span>
+<span class="card-tag">🎮 ¡Disponible!</span>
 </div>
-</div>
+</a>
 
 </div>
 
